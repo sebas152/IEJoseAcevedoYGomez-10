@@ -1,0 +1,10 @@
+using System;
+
+class code
+{
+static void Main ()
+{
+for (int i = 99; i>=1; i=i-1) {
+Console.WriteLine (i);
+}
+}
