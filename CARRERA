@@ -1,0 +1,34 @@
+/* 
+FECHA 28/08/2024
+AUTORES JUAN ESTEBAN ALVAREZ, SANTIAGO GUERRA, JHONFRETH LIBERNAL, MIGUEL VILLEGAS, JUAN MANUEL VELEZ, YEFERSON NIETO, SEBASTIAN BALZAN DORIAN
+DESCRIPCION: ESTE ES UN CODIGO DE DESICIÓN 
+*/
+
+using System;
+class estructurarepetitiva {
+	static void Main() {
+		int t=1;
+		while (t==1)
+		{
+			Console.WriteLine ("Ingrese");
+			t=Int32.Parse(Console.ReadLine());
+			if (t==1) {
+				Console.WriteLine("Eres el campeon seC1or uno");
+			}
+			if (t>1 && t<8) {
+				Console.WriteLine("Animo,animo,animo");
+			}
+			if(t==3) {
+				Console.WriteLine("El pueblo esta contigo tres");
+			}
+			if(t>3 && t<=7) {
+				Console.WriteLine("Tu puedes,tu puedes");
+			}
+			if(t>7) {
+				Console.WriteLine("Este corredor no compite");
+			}
+		}
+
+	}
+
+}
